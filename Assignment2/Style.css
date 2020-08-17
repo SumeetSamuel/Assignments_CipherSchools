@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+  }
+ 
+/* header*/
+.header{
+  text-align: center;
+  padding: 20px 20px;
+}
+
+.header h2{
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.header strong{
+  font-size: 28px;
+}
+
+/*Items button*/  
+.btn-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-bottom: 20px;
+  }
+  
+.btn-group button{
+  background:white;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5%;
+  border: 1px solid #212121;
+}
+
+.btn-group button:hover {
+  box-shadow: 0 8px 16px 0 rgba(68, 132, 192, 0.2);
+}
+
+/*search bar*/
+.search-box{
+  margin:0 auto;
+  max-width:450px;
+  }
+  
+.search-box button {
+    float: left;
+    width:10%;
+    padding: 6px;
+    background: white;
+    color: black;
+    font-size: 17px;
+    border: 1.5px solid lightgray;
+    border-right: none ; /* Prevent double borders */
+    cursor: pointer;
+  }
+
+.search-box input[type=text] {
+    padding: 6px;
+    font-size: 17px;
+    border: 1.5px solid lightgray;
+    float:right;
+    width: 90%;
+    background: white;
+   }
+
+.search-box button:hover{
+  box-shadow: 0 8px 16px 0 rgba(68, 132, 192, 0.2);
+}
+
+/*Item cards gallery*/
+.cards{
+    width:100%;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+.card{
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,0.2);
+    max-width: 300px;
+    border: 1px solid lightgray
+  }
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.itemName{
+  padding: 10px 15px;
+  font-size: 22px;
+  float: left; 
+  font-family: Arial;
+  font-weight: 400; 
+}
+
+.price {
+  padding: 10px 15px;
+  float: right;
+  color: black;
+  font-size: 22px;
+  font-weight: 550; 
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Style.css">
+    <script defer src="index.js"></script>
+    <title>Our Store</title>
+</head>
+<body>
+    <div class="header">
+        <h2>Our   <strong>Store</strong></h2>
+    </div>
+
+    <div class="btn-group">
+        <button onclick=Allfn()>ALL</button>
+        <button onclick=Cakefn()>CAKES</button>
+        <button onclick=CupCakefn()>CUPECAKES</button>
+        <button onclick=Sweetfn()>SWEETS</button>
+        <button onclick=Doughnutfn()>DOUGHNUTS</button>
+    </div>
+
+    <div class="search-box">
+        <button onclick=Searchfn() ><i class="fa fa-search"></i></button>
+        <input type="text" placeholder="item.... cake or sweet,etc."  id="data">
+    </div>
+     
+    <div class="cards">
+        <div class="card">
+            <img id="img1" src="images/sweet1.jpg" alt="sweet image"  style="width:100%">
+            <h1 id="item1" class="itemName">Sweet Item</h1>
+            <p class="price">$5</p>
+        </div>
+        <div class="card">
+            <img id="img2" src="images/cupcake1.jpg" alt="cupcake image" style="width:100%">
+            <h1 id="item2" class="itemName">Cupcake Item</h1>
+            <p class="price">$5</p>
+        </div>
+        <div class="card">
+            <img id="img3" src="images/cake1.jpg" alt="cake image" style="width:100%">
+            <div class="itemDetail">
+               <h1 id="item3" class="itemName">Cake Item</h1>
+               <p class="price">$5</p>
+            </div>
+        </div>
+        <div class="card">
+            <img id="img4" src="images/doughnut1.jpg" alt="doughnut image" style="width:100%">
+            <div class="itemDetail">
+               <h1 id="item4" class="itemName">Doughnut Item</h1>
+               <p class="price">$5</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
