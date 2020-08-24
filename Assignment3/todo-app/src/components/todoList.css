@@ -1,0 +1,37 @@
+.taskDetail{
+    padding-bottom: 10px;
+    margin:0 auto;
+    max-width:500px;
+    }
+
+.taskDetail input[type=text] {
+    float:left;
+    width:80%;
+    border: 1.5px solid lightgray;
+    height: 40px;
+    }
+
+.taskDetail button {
+    height: 45px;
+    background: white;
+    color: black;
+    font-size: 17px;
+    border: 1.5px solid lightgray;
+    cursor: pointer;
+    }
+
+.taskbar{
+   max-width:500px;
+    background-color: lightskyblue;
+    border: 1.5px solid black;
+    width:94.5%;
+    height: 45px;
+    text-align:center;
+}
+
+.taskbar button{
+    height: 45px;
+    float:right;
+}
+
+    
