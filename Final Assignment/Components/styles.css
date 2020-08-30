@@ -1,0 +1,125 @@
+/*For Resume Page*/
+.resume {
+    margin-top: 3vw;
+    color: #00334e;
+    display: grid;
+    justify-items: center;
+    border-top: 2px solid #00334e;
+    border-left: 2px solid #00334e;
+    border-bottom: 3px solid #00334e;
+    padding-bottom: 6vw;
+}
+
+.resume h1 {
+    font-variant: small-caps;
+    font-size: 4vw;
+    text-decoration: underline;
+
+}
+
+.entry {
+    width: 70vw;
+    display: block;
+    padding-top: 55px;
+    clear: both;
+}
+
+.entry h2 {
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+
+.content p {
+    width: 40vw;
+    margin-left: 40px;
+    float: right;
+
+
+}
+
+.content {
+    clear: both;
+}
+
+.content .folio {
+    float: left;
+    clear: both;
+}
+
+.entry .space {
+    margin-bottom: 18vw;
+}
+
+
+.content h3 {
+    width: 180px;
+    text-align: left;
+    float: left;
+    padding: 0;
+    clear: both;
+    font-size: 13pt;
+    color: #145374;
+}
+
+em {
+    font-family: Georgia, "Times New Roman", serif;
+    font-style: italic;
+    color: dimgrey;
+    font-size: 12pt;
+    display: block;
+    padding-top: 0;
+}
+
+
+
+ul.skills li {
+    width: 10vw;
+    margin-top: 6px;
+}
+
+
+
+/*For Contact Page*/
+
+input {
+    outline: none;
+}
+
+textarea {
+    resize: none;
+    outline: none;
+}
+
+.contact {
+    font-weight: bold;
+    display: grid;
+    justify-items: center;
+
+    color: #00334e;
+    border-left: 2px solid #00334e;
+    border-right: 2px solid #00334e;
+
+    padding: 5vw;
+}
+
+.contact h1 {
+    font-variant: small-caps;
+    font-size: 4vw;
+    text-decoration: underline;
+    margin-bottom: 6vw;
+
+}
+
+/*For Blogs Page*/
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
+    grid-gap: 1vw;
+    padding:5vw 0;
+    justify-items: center;
+}
+
+
+
